@@ -1,0 +1,3 @@
+transformers
+torchvision
+open_clip_torch
