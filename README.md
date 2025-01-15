@@ -1,8 +1,16 @@
 # ZS-IQA
-
+This is the official repository of the paper tiled
 ## Foundation Models Boost Low-Level Perceptual Similarity Metrics
 
-[Abhijay Ghildyal](https://abhijay9.github.io/), [Nabajeet Barman](https://www.linkedin.com/in/nabajeetbarman/), and [Saman Zadtootaghaj](https://www.linkedin.com/in/saman-zadtootaghaj-76947568/). In ICASSP, 2025. [[Arxiv]](https://arxiv.org/abs/2409.07650)
+[Abhijay Ghildyal](https://abhijay9.github.io/), [Nabajeet Barman](https://www.linkedin.com/in/nabajeetbarman/), and [Saman Zadtootaghaj](https://www.linkedin.com/in/saman-zadtootaghaj-76947568/). 
+
+In ICASSP, 2025. Please checkout the paper on [[Arxiv]](https://arxiv.org/abs/2409.07650)
+
+## Abstract
+
+For full-reference image quality assessment (FR-IQA) using deep-learning approaches, the perceptual similarity score between a distorted image and a reference image is typically computed as a distance measure between features extracted from a pretrained CNN or more recently, a Transformer network. Often, these intermediate features require further fine-tuning or processing with additional neural network layers to align the final similarity scores with human judgments. So far, most IQA models based on foundation models have primarily relied on the final layer or the embedding for the quality score estimation. In contrast, this work explores the potential of utilizing the intermediate features of these foundation models, which have largely been unexplored so far in the design of low-level perceptual similarity metrics. We demonstrate that the intermediate features are comparatively more effective. Moreover, without requiring any training, these metrics can outperform both traditional and state-of-the-art learned metrics by utilizing distance measures between the features.
+
+## Using the ZS-IQA Model
 
 ### Install
 
