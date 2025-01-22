@@ -49,7 +49,7 @@ If you find this repository useful for your research, please cite the following 
 ```
 @inproceedings{ghildyal2025zsiqa,
   title={Foundation Models Boost Low-Level Perceptual Similarity Metrics},
-  author={Abhijay Ghildyal, Nabajeet Barman and Saman Zadtootaghaj},
+  author={Abhijay Ghildyal and Nabajeet Barman and Saman Zadtootaghaj},
   booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing},
   year={2025}
 }
