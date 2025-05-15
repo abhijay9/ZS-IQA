@@ -19,7 +19,7 @@ For full-reference image quality assessment (FR-IQA) using deep-learning approac
 ```
 conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 pip install git+https://github.com/openai/CLIP.git
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Run evaluation
